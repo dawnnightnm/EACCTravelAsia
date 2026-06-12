@@ -370,6 +370,10 @@ ul { list-style:none; }
 .hero-scroll-hint i { font-size:0.9rem; }
 @keyframes scrollBounce { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(9px)} }
 
+/* Fix iOS background-attachment: fixed bug */
+.hero-bg { background-attachment: scroll; }
+@media(min-width:1024px) { .hero-bg { background-attachment: fixed; } }
+
 /* Sections */
 .section { padding:5.5rem 0; }
 .section-alt { background:var(--bg-2); }
@@ -403,8 +407,8 @@ ul { list-style:none; }
 .quote-block cite { font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px; display:block; margin-top:0.5rem; }
 
 /* Destinations Grid */
-.destinations-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:1.5rem; }
-@media(max-width:480px) { .destinations-grid { grid-template-columns:1fr; } }
+.destinations-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr)); gap:1.5rem; }
+@media(max-width:680px) { .destinations-grid { grid-template-columns:1fr; } }
 
 .dest-card {
   border-radius:10px; overflow:hidden;
@@ -425,7 +429,8 @@ ul { list-style:none; }
 .dest-desc { font-size:0.855rem; color:var(--text-muted); line-height:1.75; }
 
 /* Food Section */
-.food-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:1.2rem; }
+.food-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(200px,100%),1fr)); gap:1.2rem; }
+@media(max-width:480px) { .food-grid { grid-template-columns:1fr; } }
 .food-card {
   background:var(--bg-card); border:1px solid var(--border-subtle);
   border-radius:10px; overflow:hidden;
@@ -510,16 +515,28 @@ ul { list-style:none; }
    ================================================ */
 @media(max-width:768px) {
   .landing-content { padding:2rem 1.5rem; }
-  .logo-item img { height:55px; }
+  .logo-row { gap:1.2rem; }
+  .logo-item img { height:50px; }
   .event-title { font-size:clamp(1.7rem,8vw,3rem); }
-  .section { padding:3.5rem 0; }
+  .section { padding:3rem 0; }
   .intro-grid { grid-template-columns:1fr; }
   .cultural-banner { padding:2.5rem 1.5rem; }
   .tip-card, .dest-card { border-radius:8px; }
+  .tips-grid { grid-template-columns:1fr; }
+  .country-card-content { padding:1.8rem; }
+  .country-name { font-size:1.6rem; }
+  .main-hero { padding:6rem 1.5rem 3rem; }
+  .container { padding:0 1.2rem; }
+  .section-header { margin-bottom:2.5rem; }
+  .quick-facts { padding:1.5rem; }
 }
 
 @media(max-width:480px) {
   .event-info { grid-template-columns:1fr 1fr; }
-  .food-grid { grid-template-columns:1fr 1fr; }
-  .tips-grid { grid-template-columns:1fr; }
+  .logo-row { flex-direction:column; gap:1rem; }
+  .logo-divider { display:none; }
+  .cultural-values { gap:0.4rem; }
+  .value-tag { font-size:0.6rem; padding:0.25rem 0.6rem; }
+  .hero-country-name { font-size:clamp(2.2rem,10vw,4rem); }
+  .dest-img-wrap { height:180px; }
 }
