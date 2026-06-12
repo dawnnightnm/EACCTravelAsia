@@ -29,7 +29,7 @@
 /* ---- Reset ---- */
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior:smooth; font-size:16px; }
-body { background:var(--dark-bg); color:var(--text); font-family:'Inter',sans-serif; line-height:1.6; overflow-x:hidden; min-height:100vh; }
+body { background:var(--dark-bg); color:var(--text); font-family:system-ui,-apple-system,'Segoe UI',sans-serif; line-height:1.6; overflow-x:hidden; min-height:100vh; }
 img { max-width:100%; height:auto; display:block; }
 a { text-decoration:none; color:inherit; }
 ul { list-style:none; }
@@ -121,7 +121,7 @@ ul { list-style:none; }
 
 /* Event Title */
 .event-title {
-  font-family:'Cinzel',serif;
+  font-family:Georgia,'Palatino Linotype',serif;
   font-size:clamp(2rem,6vw,4.2rem);
   font-weight:700; line-height:1.1; color:var(--text);
   margin-bottom:0.8rem;
@@ -131,7 +131,7 @@ ul { list-style:none; }
 
 /* Taglines */
 .tagline {
-  font-family:'Cormorant Garamond',serif;
+  font-family:Georgia,serif;
   font-size:clamp(1rem,2.5vw,1.4rem);
   font-style:italic; color:var(--text-sub);
   margin-bottom:0.3rem; letter-spacing:1px;
@@ -162,7 +162,7 @@ ul { list-style:none; }
   display:inline-flex; align-items:center; gap:0.8rem;
   background:linear-gradient(135deg, #b8943f, #e4c88a, #b8943f);
   background-size:200% 200%;
-  color:#1a0f00; font-family:'Cinzel',serif;
+  color:#1a0f00; font-family:Georgia,'Palatino Linotype',serif;
   font-size:0.9rem; font-weight:700;
   padding:1rem 2.8rem; border-radius:4px;
   letter-spacing:2.5px; text-transform:uppercase;
@@ -199,7 +199,7 @@ ul { list-style:none; }
 
 .nav-brand { display:flex; align-items:center; gap:0.8rem; }
 .nav-brand img { height:34px; object-fit:contain; filter:drop-shadow(0 0 8px rgba(201,169,110,0.3)); }
-.nav-brand-text { font-family:'Cinzel',serif; font-size:0.9rem; color:var(--gold); letter-spacing:1px; line-height:1.2; }
+.nav-brand-text { font-family:Georgia,'Palatino Linotype',serif; font-size:0.9rem; color:var(--gold); letter-spacing:1px; line-height:1.2; }
 .nav-brand-sub { font-size:0.65rem; color:var(--text-muted); letter-spacing:1px; display:block; }
 
 .nav-links { display:flex; align-items:center; gap:2rem; }
@@ -253,8 +253,8 @@ ul { list-style:none; }
 }
 
 .overline { font-size:0.65rem; text-transform:uppercase; letter-spacing:4px; color:var(--gold); margin-bottom:0.8rem; display:block; }
-.page-title { font-family:'Cinzel',serif; font-size:clamp(2rem,5vw,3.5rem); font-weight:700; color:var(--text); margin-bottom:1rem; }
-.page-subtitle { font-family:'Cormorant Garamond',serif; font-size:clamp(1rem,2vw,1.3rem); font-style:italic; color:var(--text-muted); max-width:520px; margin:0 auto; }
+.page-title { font-family:Georgia,'Palatino Linotype',serif; font-size:clamp(2rem,5vw,3.5rem); font-weight:700; color:var(--text); margin-bottom:1rem; }
+.page-subtitle { font-family:Georgia,serif; font-size:clamp(1rem,2vw,1.3rem); font-style:italic; color:var(--text-muted); max-width:520px; margin:0 auto; }
 
 /* Country Cards Grid */
 .countries-grid { display:grid; grid-template-columns:repeat(3,1fr); min-height:58vh; }
@@ -288,7 +288,7 @@ ul { list-style:none; }
 }
 .country-card:hover .country-char { opacity:0.9; }
 
-.country-name { font-family:'Cinzel',serif; font-size:2rem; font-weight:700; color:#fff; margin-bottom:0.4rem; }
+.country-name { font-family:Georgia,'Palatino Linotype',serif; font-size:2rem; font-weight:700; color:#fff; margin-bottom:0.4rem; }
 
 .country-tag { font-size:0.7rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:2px; margin-bottom:1rem; }
 
@@ -350,12 +350,12 @@ ul { list-style:none; }
 .korea-body  .hero-script { color:#6fa3ef; }
 
 .hero-country-name {
-  font-family:'Cinzel',serif; font-size:clamp(3rem,9vw,7rem);
+  font-family:Georgia,'Palatino Linotype',serif; font-size:clamp(3rem,9vw,7rem);
   font-weight:700; color:#fff;
   text-shadow:0 2px 40px rgba(255,255,255,0.15); letter-spacing:0.08em;
 }
 .hero-country-sub {
-  font-family:'Cormorant Garamond',serif;
+  font-family:Georgia,serif;
   font-size:clamp(1rem,2.5vw,1.5rem); font-style:italic;
   color:rgba(255,255,255,0.65); margin-top:0.6rem;
 }
@@ -381,8 +381,8 @@ ul { list-style:none; }
 
 .section-header { text-align:center; margin-bottom:3.5rem; }
 .section-number { font-size:0.62rem; text-transform:uppercase; letter-spacing:4px; color:var(--gold); margin-bottom:0.5rem; display:block; }
-.section-title { font-family:'Cinzel',serif; font-size:clamp(1.4rem,4vw,2.3rem); color:var(--text); margin-bottom:0.8rem; }
-.section-desc { font-family:'Cormorant Garamond',serif; font-size:1.1rem; font-style:italic; color:var(--text-muted); max-width:580px; margin:0 auto; }
+.section-title { font-family:Georgia,'Palatino Linotype',serif; font-size:clamp(1.4rem,4vw,2.3rem); color:var(--text); margin-bottom:0.8rem; }
+.section-desc { font-family:Georgia,serif; font-size:1.1rem; font-style:italic; color:var(--text-muted); max-width:580px; margin:0 auto; }
 
 /* Intro Section */
 .intro-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
@@ -392,7 +392,7 @@ ul { list-style:none; }
 .intro-text .highlight { color:var(--gold); font-weight:600; }
 
 .quick-facts { background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:10px; padding:2rem; }
-.quick-facts h3 { font-family:'Cinzel',serif; font-size:0.9rem; color:var(--gold); text-transform:uppercase; letter-spacing:2px; margin-bottom:1.5rem; }
+.quick-facts h3 { font-family:Georgia,'Palatino Linotype',serif; font-size:0.9rem; color:var(--gold); text-transform:uppercase; letter-spacing:2px; margin-bottom:1.5rem; }
 .fact-row { display:flex; justify-content:space-between; align-items:center; padding:0.7rem 0; border-bottom:1px solid var(--border-subtle); }
 .fact-row:last-child { border-bottom:none; }
 .fact-key { font-size:0.78rem; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); }
@@ -403,7 +403,7 @@ ul { list-style:none; }
   border-left:3px solid var(--gold); border-radius:0 8px 8px 0;
   padding:1.5rem 2rem; margin-top:2rem;
 }
-.quote-block blockquote { font-family:'Cormorant Garamond',serif; font-size:1.05rem; font-style:italic; color:var(--text-sub); line-height:1.7; }
+.quote-block blockquote { font-family:Georgia,serif; font-size:1.05rem; font-style:italic; color:var(--text-sub); line-height:1.7; }
 .quote-block cite { font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px; display:block; margin-top:0.5rem; }
 
 /* Destinations Grid */
@@ -424,7 +424,7 @@ ul { list-style:none; }
 
 .dest-info { padding:1.5rem; }
 .dest-rank { font-size:0.6rem; text-transform:uppercase; letter-spacing:3px; color:var(--gold); margin-bottom:0.4rem; display:block; }
-.dest-name { font-family:'Cinzel',serif; font-size:1.15rem; color:var(--text); margin-bottom:0.5rem; }
+.dest-name { font-family:Georgia,'Palatino Linotype',serif; font-size:1.15rem; color:var(--text); margin-bottom:0.5rem; }
 .dest-location { font-size:0.72rem; color:var(--gold-dark); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:0.6rem; }
 .dest-desc { font-size:0.855rem; color:var(--text-muted); line-height:1.75; }
 
@@ -441,7 +441,7 @@ ul { list-style:none; }
 .food-img { width:100%; height:100%; object-fit:cover; transition:transform 0.6s ease; }
 .food-card:hover .food-img { transform:scale(1.08); }
 .food-info { padding:1.1rem; }
-.food-name { font-family:'Cinzel',serif; font-size:0.95rem; color:var(--text); margin-bottom:0.3rem; }
+.food-name { font-family:Georgia,'Palatino Linotype',serif; font-size:0.95rem; color:var(--text); margin-bottom:0.3rem; }
 .food-desc { font-size:0.78rem; color:var(--text-muted); line-height:1.65; }
 
 /* Tips Section */
@@ -453,7 +453,7 @@ ul { list-style:none; }
 }
 .tip-card:hover { border-color:var(--border); box-shadow:var(--glow); transform:translateY(-3px); }
 .tip-icon { font-size:1.5rem; color:var(--gold); margin-bottom:1rem; }
-.tip-title { font-family:'Cinzel',serif; font-size:0.95rem; color:var(--text); margin-bottom:0.5rem; }
+.tip-title { font-family:Georgia,'Palatino Linotype',serif; font-size:0.95rem; color:var(--text); margin-bottom:0.5rem; }
 .tip-text { font-size:0.82rem; color:var(--text-muted); line-height:1.75; }
 
 /* Cultural Banner */
@@ -471,8 +471,8 @@ ul { list-style:none; }
   font-size:clamp(3rem,8vw,6rem); opacity:0.08; line-height:1;
   margin-bottom:1rem; font-weight:900; pointer-events:none;
 }
-.cultural-banner h2 { font-family:'Cinzel',serif; font-size:clamp(1.3rem,3vw,2rem); color:var(--text); margin-bottom:0.8rem; }
-.cultural-banner p { font-family:'Cormorant Garamond',serif; font-size:1.05rem; font-style:italic; color:var(--text-muted); max-width:600px; margin:0 auto 1.5rem; }
+.cultural-banner h2 { font-family:Georgia,'Palatino Linotype',serif; font-size:clamp(1.3rem,3vw,2rem); color:var(--text); margin-bottom:0.8rem; }
+.cultural-banner p { font-family:Georgia,serif; font-size:1.05rem; font-style:italic; color:var(--text-muted); max-width:600px; margin:0 auto 1.5rem; }
 .explore-more-btn {
   display:inline-flex; align-items:center; gap:0.7rem;
   padding:0.8rem 2rem; border:1px solid var(--border);
@@ -539,4 +539,96 @@ ul { list-style:none; }
   .value-tag { font-size:0.6rem; padding:0.25rem 0.6rem; }
   .hero-country-name { font-size:clamp(2.2rem,10vw,4rem); }
   .dest-img-wrap { height:180px; }
+}
+
+/* ================================================
+   ZERO-DEPENDENCY OVERRIDES
+   System fonts · Unicode icons · CSS gradients
+   ================================================ */
+
+/* Font Awesome Unicode fallbacks — no CDN needed */
+.fa-solid, .fa-regular { font-family:inherit; font-style:normal; font-weight:normal; display:inline-block; }
+.fa-star::before          { content:'✦'; }
+.fa-location-dot::before  { content:'⊙'; }
+.fa-calendar::before      { content:'◈'; }
+.fa-users::before         { content:'◎'; }
+.fa-chevron-down::before  { content:'↓'; }
+.fa-arrow-right::before   { content:'→'; }
+.fa-circle-info::before   { content:'ⓘ'; }
+.fa-sun::before           { content:'☀'; }
+.fa-passport::before      { content:'▣'; }
+.fa-money-bill-wave::before { content:'¤'; }
+.fa-wifi::before          { content:'≋'; }
+.fa-train-subway::before  { content:'⊟'; }
+.fa-train::before         { content:'⊟'; }
+.fa-language::before      { content:'文'; }
+.fa-globe::before         { content:'◉'; }
+.fa-tree::before          { content:'✿'; }
+.fa-credit-card::before   { content:'▢'; }
+.fa-hands::before         { content:'❋'; }
+.fa-shoe-prints::before   { content:'⊙'; }
+.fa-leaf::before          { content:'♧'; }
+.fa-bus::before           { content:'⊡'; }
+.fa-mobile-screen::before { content:'▯'; }
+.fa-spa::before           { content:'❧'; }
+.fa-store::before         { content:'⊞'; }
+
+/* Hide external images — replaced by CSS gradients below */
+.dest-img, .dest-img-overlay, .food-img { display:none; }
+
+/* Destination card gradient placeholders */
+.dest-img-wrap { background:linear-gradient(135deg, var(--bg-2), #1a1a3a); }
+.dest-img-wrap::after {
+  content:'';
+  position:absolute; top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  font-size:5rem; font-weight:900; opacity:0.1; line-height:1; pointer-events:none;
+}
+.china-body .dest-img-wrap { background:linear-gradient(135deg,#150308,#3d0a18,#0a0210); }
+.china-body .dest-card:nth-child(even) .dest-img-wrap { background:linear-gradient(135deg,#050512,#181838,#050510); }
+.china-body .dest-img-wrap::after  { content:'中'; color:#ff8a8a; }
+
+.japan-body .dest-img-wrap { background:linear-gradient(135deg,#150205,#3a0812,#0a0208); }
+.japan-body .dest-card:nth-child(even) .dest-img-wrap { background:linear-gradient(135deg,#120218,#351540,#100215); }
+.japan-body .dest-img-wrap::after  { content:'日'; color:#ffb7c5; }
+
+.korea-body .dest-img-wrap { background:linear-gradient(135deg,#020515,#081540,#020510); }
+.korea-body .dest-card:nth-child(even) .dest-img-wrap { background:linear-gradient(135deg,#150205,#401015,#150205); }
+.korea-body .dest-img-wrap::after  { content:'韓'; color:#7aaff0; }
+
+/* Food card gradient placeholders */
+.food-img-wrap { background:linear-gradient(135deg,var(--bg-2),#1a1a2a); position:relative; }
+.food-img-wrap::after {
+  content:'食';
+  position:absolute; top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  font-size:3.5rem; font-weight:900; opacity:0.1; line-height:1; pointer-events:none;
+}
+.china-body .food-img-wrap  { background:linear-gradient(135deg,#150308,#3a0a18,#0a0210); }
+.china-body .food-img-wrap::after  { color:#ff8a8a; }
+.japan-body .food-img-wrap  { background:linear-gradient(135deg,#150205,#3a0810,#0a0210); }
+.japan-body .food-img-wrap::after  { color:#ffb7c5; }
+.korea-body .food-img-wrap  { background:linear-gradient(135deg,#020515,#081540,#020310); }
+.korea-body .food-img-wrap::after  { content:'식'; color:#7aaff0; }
+
+/* Hero gradient backgrounds — override Unsplash inline background-image */
+.china-body .hero-bg {
+  background-image:linear-gradient(135deg,#0a0008 0%,#3a0810 30%,#6b1525 60%,#1a0308 100%) !important;
+}
+.japan-body .hero-bg {
+  background-image:linear-gradient(135deg,#0a0005 0%,#380510 30%,#6b0820 60%,#180308 100%) !important;
+}
+.korea-body .hero-bg {
+  background-image:linear-gradient(135deg,#00030f 0%,#060d35 30%,#0f1e60 60%,#040b2a 100%) !important;
+}
+
+/* Main page country card gradients — override Unsplash inline background-image */
+.card-china .country-card-bg {
+  background-image:linear-gradient(160deg,#1a0008,#6b1020,#9b1525,#2a0508) !important;
+}
+.card-japan .country-card-bg {
+  background-image:linear-gradient(160deg,#1a0005,#6b0818,#9b0820,#2a0508) !important;
+}
+.card-korea .country-card-bg {
+  background-image:linear-gradient(160deg,#00051a,#0d1850,#1a2e70,#001028) !important;
 }
