@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korea Travel Ideas — EACC One Culture One Practice 2026</title>
+  <meta name="description" content="Discover Korea's must-visit destinations, food, and travel tips. Presented by EACC UiTM at One Culture One Practice 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .korea-accent { color: var(--korea-blue); }
+    .section-title .accent { color: #7aaff0; }
+    .korea-body .tip-card:hover { border-color: rgba(0,52,120,0.4); box-shadow: 0 0 30px rgba(0,52,120,0.1); }
+    .korea-tag { background:rgba(0,52,120,0.12); color:#7aaff0; border:1px solid rgba(0,52,120,0.35); display:inline-block; font-size:0.65rem; text-transform:uppercase; letter-spacing:2px; padding:0.2rem 0.7rem; border-radius:3px; margin-bottom:0.5rem; }
+    .korea-body .dest-card:hover { border-color: rgba(111,163,240,0.25); }
+    .korea-body .food-card:hover { border-color: rgba(111,163,240,0.25); }
+    .taegeuk {
+      display:inline-flex; align-items:center; justify-content:center;
+      width:60px; height:60px; border-radius:50%;
+      background:conic-gradient(#c42b1c 0deg 180deg, #003478 180deg 360deg);
+      border:3px solid rgba(255,255,255,0.15);
+      font-size:1.6rem; font-weight:900; color:transparent;
+    }
+  </style>
+</head>
+<body class="country-body korea-body">
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="nav-brand">
+      <img src="assets/eacc-logo.png" alt="EACC" onerror="this.style.display='none'" style="height:34px;">
+      <div>
+        <span class="nav-brand-text">EACC Travel Asia</span>
+        <span class="nav-brand-sub">One Culture One Practice 2026</span>
+      </div>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Welcome</a></li>
+      <li><a href="main.html">Explore</a></li>
+      <li><a href="china.html">China</a></li>
+      <li><a href="japan.html">Japan</a></li>
+      <li><a href="korea.html" class="active">Korea</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="country-hero" aria-label="Korea hero">
+    <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=1920&q=80');"></div>
+    <div class="hero-overlay korea-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-script" aria-hidden="true">한국</div>
+      <h1 class="hero-country-name">Korea</h1>
+      <p class="hero-country-sub">Dynamic, Vibrant &amp; Endlessly Iconic</p>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <i class="fa-solid fa-chevron-down"></i>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section class="section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-text">
+          <div class="korea-tag">About Korea</div>
+          <h2 style="font-family:'Cinzel',serif; font-size:clamp(1.3rem,3vw,2rem); color:var(--text); margin-bottom:1.2rem;">
+            The Land of the Morning Calm
+          </h2>
+          <p>South Korea is a country of astonishing contrasts — ancient palaces rise in the shadow of glass skyscrapers, Buddhist monks walk past K-pop music shops, and traditional markets selling fermented kimchi and crispy pancakes operate next to Michelin-starred restaurants.</p>
+          <p>Known globally today for <span class="highlight">K-pop, K-dramas, and K-beauty</span>, Korea has a cultural depth that stretches back thousands of years. Its cuisine is some of Asia's most complex and delicious, its people some of the most warm and hospitable, and its landscapes — from volcanic Jeju Island to the neon-lit streets of Seoul — spectacularly diverse.</p>
+          <div class="quote-block" style="border-left-color:var(--korea-blue);">
+            <blockquote>"사랑 없이는 살 수 없다 — One cannot live without love."</blockquote>
+            <cite>— Korean Proverb</cite>
+          </div>
+        </div>
+        <div>
+          <div class="quick-facts">
+            <h3><i class="fa-solid fa-circle-info" style="margin-right:0.5rem;"></i> Quick Facts</h3>
+            <div class="fact-row"><span class="fact-key">Capital</span><span class="fact-val">Seoul</span></div>
+            <div class="fact-row"><span class="fact-key">Population</span><span class="fact-val">52 Million</span></div>
+            <div class="fact-row"><span class="fact-key">Currency</span><span class="fact-val">Korean Won (₩ KRW)</span></div>
+            <div class="fact-row"><span class="fact-key">Language</span><span class="fact-val">Korean (한국어)</span></div>
+            <div class="fact-row"><span class="fact-key">Time Zone</span><span class="fact-val">KST (UTC+9)</span></div>
+            <div class="fact-row"><span class="fact-key">Country Code</span><span class="fact-val">+82</span></div>
+            <div class="fact-row"><span class="fact-key">Best Season</span><span class="fact-val">Spring &amp; Autumn</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS -->
+  <section class="section section-alt" id="destinations">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">01 — Must-Visit Destinations</span>
+        <h2 class="section-title">Iconic Places in <span class="accent">Korea</span></h2>
+        <p class="section-desc">Royal palaces, island paradises, colourful hillside villages, and a capital city that never sleeps — Korea has something extraordinary at every turn</p>
+      </div>
+      <div class="destinations-grid">
+
+        <article class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=800&q=80" alt="Gyeongbokgung Palace Seoul" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 01</span>
+            <h3 class="dest-name">Gyeongbokgung Palace</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Jongno-gu, Seoul</p>
+            <p class="dest-desc">The grandest of Seoul's Five Grand Palaces, built in 1395 as the main palace of the Joseon dynasty. Watch the ceremonial Changing of the Royal Guard, then rent a hanbok (traditional dress) to get in free and roam the majestic courtyards.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-1">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=800&q=80" alt="Seoul South Korea" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 02</span>
+            <h3 class="dest-name">N Seoul Tower &amp; Namsan</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Yongsan-gu, Seoul</p>
+            <p class="dest-desc">Perched on Namsan Mountain, N Seoul Tower offers 360° panoramic views of the sprawling capital. The hilltop is ringed with thousands of love padlocks. Take the cable car up, or hike the forested Namsan trail at sunset for stunning city views.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-2">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?auto=format&fit=crop&w=800&q=80" alt="Bukchon Hanok Village Seoul" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 03</span>
+            <h3 class="dest-name">Bukchon Hanok Village</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Jongno-gu, Seoul</p>
+            <p class="dest-desc">Over 900 traditional Korean hanok houses with elegant curved rooflines line this hilly neighbourhood between Gyeongbokgung and Changdeokgung palaces. Explore the narrow alleys, discover craft workshops, and step back 600 years into Joseon-era Seoul.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-3">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1590850561767-de5e79ea5280?auto=format&fit=crop&w=800&q=80" alt="Jeju Island Korea" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 04</span>
+            <h3 class="dest-name">Jeju Island</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Jeju Special Self-Governing Province</p>
+            <p class="dest-desc">Korea's volcanic island paradise — a UNESCO Triple Crown site. Hike Hallasan (Korea's highest peak), dive into crystal-clear Manjanggul lava tube caves, wonder at the Seongsan Ilchulbong sunrise peak, and swim at Hamdeok's turquoise beach.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-4">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1561316441-1ef5a4e099c5?auto=format&fit=crop&w=800&q=80" alt="Busan South Korea" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 05</span>
+            <h3 class="dest-name">Busan — Korea's Coastal Capital</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Busan Metropolitan City</p>
+            <p class="dest-desc">Korea's second city delivers beach life at Haeundae, the rainbow-painted Gamcheon Culture Village (the "Machu Picchu of Busan"), the freshest seafood at Jagalchi Market, and temple-cliffside solitude at Haedong Yonggungsa.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80" alt="Korean landscape mountains" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 06</span>
+            <h3 class="dest-name">Seoraksan National Park</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Gangwon Province</p>
+            <p class="dest-desc">Korea's most celebrated national park, where jagged granite peaks, ancient Buddhist temples, and crystal streams create scenery that explodes into magnificent red and gold in autumn. The Ulsanbawi Rock sunrise hike is simply unmissable.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOD -->
+  <section class="section" id="food">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">02 — Food &amp; Cuisine</span>
+        <h2 class="section-title">Must-Try <span class="accent">Korean Food</span></h2>
+        <p class="section-desc">Korean food is bold, fermented, spicy, and utterly addictive. Every meal comes with an array of banchan (side dishes) — making every table a feast</p>
+      </div>
+      <div class="food-grid">
+
+        <div class="food-card fade-in">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=600&q=80" alt="Korean BBQ" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Korean BBQ (삼겹살)</h3>
+            <p class="food-desc">Grill thick-cut pork belly (samgyeopsal) or marinated beef (galbi) over charcoal at your table. Wrap in perilla leaves with garlic, kimchi, and gochujang paste. The most social meal in Korea.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-1">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=600&q=80" alt="Bibimbap Korea" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Bibimbap (비빔밥)</h3>
+            <p class="food-desc">A colourful bowl of rice topped with seasoned vegetables, marinated beef, a fried egg, and a generous spoonful of gochujang red pepper paste. Mix everything together and enjoy one of Korea's most iconic dishes.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-2">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80" alt="Tteokbokki Korea" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Tteokbokki (떡볶이)</h3>
+            <p class="food-desc">Chewy cylindrical rice cakes simmered in a fiery, sweet gochujang sauce — the quintessential Korean street food. Found at every pojangmacha street stall. Pairs perfectly with eomuk fish cakes and a sip of Korean soda.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-3">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80" alt="Japchae Korean glass noodles" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Japchae (잡채)</h3>
+            <p class="food-desc">Silky sweet potato glass noodles stir-fried with rainbow vegetables, beef, and a savoury-sweet sesame soy glaze. Often served at celebrations, it's one of Korea's most beloved comfort foods and a staple at every family table.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-4">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=600&q=80" alt="Korean fried chicken" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Korean Fried Chicken</h3>
+            <p class="food-desc">Double-fried for unparalleled crunch, then glazed in sweet-spicy gochujang or soy garlic sauce. Best enjoyed with a cold bottle of makgeolli rice wine in a Chimaek (chicken + maekju/beer) restaurant. Pure bliss.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAVEL TIPS -->
+  <section class="section section-alt" id="tips">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">03 — Travel Tips</span>
+        <h2 class="section-title">Before You Go to <span class="accent">Korea</span></h2>
+        <p class="section-desc">Korea is one of Asia's most visitor-friendly destinations. These tips will help you get the most from your Korean adventure</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card fade-in">
+          <div class="tip-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3 class="tip-title">Best Time to Visit</h3>
+          <p class="tip-text">Spring (April–May) for cherry blossoms and vibrant festivals, and Autumn (September–November) for stunning fall foliage in national parks. Summer is hot and humid; winter is bitterly cold but magical with snow and fewer tourists.</p>
+        </div>
+        <div class="tip-card fade-in delay-1">
+          <div class="tip-icon"><i class="fa-solid fa-bus"></i></div>
+          <h3 class="tip-title">T-Money Card</h3>
+          <p class="tip-text">Pick up a T-money card at any convenience store or station. Top it up and use it on all metro, buses, and even some taxis across Korea. Also works in convenience stores like GS25 and 7-Eleven — an absolute must-have for every visitor.</p>
+        </div>
+        <div class="tip-card fade-in delay-2">
+          <div class="tip-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <h3 class="tip-title">Kakao Map &amp; Naver</h3>
+          <p class="tip-text">Google Maps has limited transit routing in Korea. Use Kakao Map or Naver Map instead — both have English interfaces and provide accurate subway and bus directions. Download offline maps before you go.</p>
+        </div>
+        <div class="tip-card fade-in delay-3">
+          <div class="tip-icon"><i class="fa-solid fa-star"></i></div>
+          <h3 class="tip-title">K-Culture Experiences</h3>
+          <p class="tip-text">Visit HYBE Insight, SM Town Museum, or Starfield Library for K-pop immersion. See a BTS mural in Dongdaemun, explore Hongdae's indie music scene, or attend a Korean drama filming location tour in Jeonju's Hanok Village.</p>
+        </div>
+        <div class="tip-card fade-in delay-4">
+          <div class="tip-icon"><i class="fa-solid fa-spa"></i></div>
+          <h3 class="tip-title">Jjimjilbang (찜질방)</h3>
+          <p class="tip-text">Korea's legendary 24-hour heated bathhouse and sauna complexes are a must-experience. For under ₩15,000, enjoy traditional kiln saunas, cold plunge pools, and rest areas. A beloved local ritual for relaxation and recovery.</p>
+        </div>
+        <div class="tip-card fade-in">
+          <div class="tip-icon"><i class="fa-solid fa-store"></i></div>
+          <h3 class="tip-title">Shopping &amp; Beauty</h3>
+          <p class="tip-text">Myeongdong, Hongdae, and Dongdaemun are shopping paradises. Korea is the global capital of skincare — stock up on affordable sunscreen, sheet masks, and serums at Olive Young. K-beauty products make perfect souvenirs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CULTURAL INSIGHT -->
+  <section class="section" id="culture">
+    <div class="container">
+      <div class="cultural-banner fade-in">
+        <div class="cultural-banner-script" aria-hidden="true" style="color:#7aaff0;">사랑 평화 행복</div>
+        <h2>The Soul of Korea</h2>
+        <p>Korean culture is rooted in Confucian values of filial piety, collective harmony, and deep respect for elders. The concept of <em>nunchi</em> (social awareness) shapes all interactions. Koreans eat together, play together, and celebrate together — hospitality is not a custom, it's a way of life.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin:1.5rem 0;">
+          <div style="background:rgba(0,52,120,0.1); border:1px solid rgba(0,52,120,0.35); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">사랑</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Love</div>
+          </div>
+          <div style="background:rgba(0,52,120,0.1); border:1px solid rgba(0,52,120,0.35); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">평화</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Peace</div>
+          </div>
+          <div style="background:rgba(0,52,120,0.1); border:1px solid rgba(0,52,120,0.35); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">행복</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Happiness</div>
+          </div>
+          <div style="background:rgba(205,46,58,0.1); border:1px solid rgba(205,46,58,0.3); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">희망</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Hope</div>
+          </div>
+        </div>
+        <a href="main.html" class="explore-more-btn">
+          <i class="fa-solid fa-globe"></i> Explore Other Countries
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-logos">
+      <img src="assets/uitm-logo.png" alt="UiTM" onerror="this.style.display='none'">
+      <img src="assets/eacc-logo.png" alt="EACC" onerror="this.style.display='none'">
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html">Welcome</a>
+      <a href="main.html">All Countries</a>
+      <a href="china.html">← China</a>
+      <a href="japan.html">← Japan</a>
+    </nav>
+    <div class="footer-divider"></div>
+    <p class="footer-credit">
+      <span>One Culture One Practice 2026</span><br>
+      East Asian Culture Club &nbsp;·&nbsp; UiTM Cawangan Terengganu, Kampus Kuala Terengganu<br>
+      <em style="font-size:0.68rem; opacity:0.6;">"Satu pengalaman. Satu budaya. Seribu makna."</em>
+    </p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+</body>
+</html>

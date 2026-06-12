@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japan Travel Ideas — EACC One Culture One Practice 2026</title>
+  <meta name="description" content="Discover Japan's must-visit destinations, food, and travel tips. Presented by EACC UiTM at One Culture One Practice 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .japan-accent { color: var(--japan-crimson); }
+    .section-title .accent { color: var(--japan-sakura); }
+    .japan-body .tip-card:hover { border-color: rgba(188,0,45,0.4); box-shadow: 0 0 30px rgba(188,0,45,0.08); }
+    .japan-tag { background:rgba(255,183,197,0.1); color:var(--japan-sakura); border:1px solid rgba(255,183,197,0.3); display:inline-block; font-size:0.65rem; text-transform:uppercase; letter-spacing:2px; padding:0.2rem 0.7rem; border-radius:3px; margin-bottom:0.5rem; }
+    .japan-body .dest-card:hover { border-color: rgba(255,183,197,0.25); }
+    .japan-body .food-card:hover { border-color: rgba(255,183,197,0.25); }
+  </style>
+</head>
+<body class="country-body japan-body">
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="nav-brand">
+      <img src="assets/eacc-logo.png" alt="EACC" onerror="this.style.display='none'" style="height:34px;">
+      <div>
+        <span class="nav-brand-text">EACC Travel Asia</span>
+        <span class="nav-brand-sub">One Culture One Practice 2026</span>
+      </div>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Welcome</a></li>
+      <li><a href="main.html">Explore</a></li>
+      <li><a href="china.html">China</a></li>
+      <li><a href="japan.html" class="active">Japan</a></li>
+      <li><a href="korea.html">Korea</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="country-hero" aria-label="Japan hero">
+    <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1920&q=80');"></div>
+    <div class="hero-overlay japan-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-script" aria-hidden="true">日本</div>
+      <h1 class="hero-country-name">Japan</h1>
+      <p class="hero-country-sub">Where Timeless Tradition Meets Tomorrow</p>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <i class="fa-solid fa-chevron-down"></i>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section class="section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-text">
+          <div class="japan-tag">About Japan</div>
+          <h2 style="font-family:'Cinzel',serif; font-size:clamp(1.3rem,3vw,2rem); color:var(--text); margin-bottom:1.2rem;">
+            The Land of the Rising Sun
+          </h2>
+          <p>Japan is a country that defies easy description — a place where bullet trains run to the second past century-old wooden temples, where neon-lit karaoke bars sit beside moss-covered zen gardens, and where a single bowl of ramen can bring you close to tears with its perfection.</p>
+          <p>From the <span class="highlight">cherry blossoms of Kyoto</span> to the electric chaos of Tokyo's Shibuya crossing, Japan rewards every kind of traveller: the history lover, the foodie, the nature seeker, and the pop-culture enthusiast alike.</p>
+          <div class="quote-block" style="border-left-color:var(--japan-crimson);">
+            <blockquote>"七転び八起き — Fall seven times, stand up eight."</blockquote>
+            <cite>— Japanese Proverb</cite>
+          </div>
+        </div>
+        <div>
+          <div class="quick-facts">
+            <h3><i class="fa-solid fa-circle-info" style="margin-right:0.5rem;"></i> Quick Facts</h3>
+            <div class="fact-row"><span class="fact-key">Capital</span><span class="fact-val">Tokyo</span></div>
+            <div class="fact-row"><span class="fact-key">Population</span><span class="fact-val">125 Million</span></div>
+            <div class="fact-row"><span class="fact-key">Currency</span><span class="fact-val">Japanese Yen (¥ JPY)</span></div>
+            <div class="fact-row"><span class="fact-key">Language</span><span class="fact-val">Japanese</span></div>
+            <div class="fact-row"><span class="fact-key">Time Zone</span><span class="fact-val">JST (UTC+9)</span></div>
+            <div class="fact-row"><span class="fact-key">Country Code</span><span class="fact-val">+81</span></div>
+            <div class="fact-row"><span class="fact-key">Best Season</span><span class="fact-val">Spring &amp; Autumn</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS -->
+  <section class="section section-alt" id="destinations">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">01 — Must-Visit Destinations</span>
+        <h2 class="section-title">Iconic Places in <span class="accent">Japan</span></h2>
+        <p class="section-desc">Ancient temples, sacred mountains, bamboo groves, and glittering modern cities — Japan's beauty is boundless and breathtaking</p>
+      </div>
+      <div class="destinations-grid">
+
+        <article class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=800&q=80" alt="Mount Fuji Japan" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 01</span>
+            <h3 class="dest-name">Mount Fuji &amp; Fuji Five Lakes</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Yamanashi &amp; Shizuoka Prefecture</p>
+            <p class="dest-desc">Japan's sacred 3,776m volcano is the country's most iconic symbol. View it from Lake Kawaguchiko in spring for cherry blossom reflections, or attempt the summit climb July–September for a once-in-a-lifetime sunrise above the clouds.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-1">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80" alt="Kyoto Japan" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 02</span>
+            <h3 class="dest-name">Kyoto — City of a Thousand Temples</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Kyoto Prefecture</p>
+            <p class="dest-desc">Japan's ancient imperial capital houses over 1,600 Buddhist temples and 400 Shinto shrines. Visit Fushimi Inari's 10,000 vermillion torii gates at dawn, the golden Kinkaku-ji temple, and stroll the geisha district of Gion.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-2">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80" alt="Tokyo Japan" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 03</span>
+            <h3 class="dest-name">Tokyo — The World's Greatest City</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Tokyo Metropolis</p>
+            <p class="dest-desc">Stand at the famous Shibuya Scramble Crossing, explore Akihabara's anime culture, ride to the top of Tokyo Skytree, and eat your way through Shinjuku's memory lane. Tokyo has more Michelin-starred restaurants than any city on Earth.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-3">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=800&q=80" alt="Arashiyama bamboo grove" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 04</span>
+            <h3 class="dest-name">Arashiyama Bamboo Grove</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Western Kyoto</p>
+            <p class="dest-desc">Walk through towering stalks of bamboo that filter sunlight into jade-green rays and create an otherworldly whisper in the breeze. Visit at sunrise before the crowds arrive. Nearby Tenryu-ji garden and monkey park make a perfect half-day trip.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in delay-4">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?auto=format&fit=crop&w=800&q=80" alt="Hiroshima floating torii gate" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 05</span>
+            <h3 class="dest-name">Hiroshima &amp; Miyajima Island</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Hiroshima Prefecture</p>
+            <p class="dest-desc">Visit the Peace Memorial Park and Museum for a profound, moving historical experience, then take a short ferry to Miyajima Island to see the "floating" Itsukushima torii gate rising from the sea at high tide — one of Japan's Three Views.</p>
+          </div>
+        </article>
+
+        <article class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img class="dest-img" src="https://images.unsplash.com/photo-1531139765466-fa95b83a7f9e?auto=format&fit=crop&w=800&q=80" alt="Nara deer park Japan" loading="lazy">
+            <div class="dest-img-overlay"></div>
+          </div>
+          <div class="dest-info">
+            <span class="dest-rank">Destination 06</span>
+            <h3 class="dest-name">Nara — Deer City &amp; Ancient Temples</h3>
+            <p class="dest-location"><i class="fa-solid fa-location-dot" style="margin-right:4px;"></i> Nara Prefecture</p>
+            <p class="dest-desc">Over 1,200 semi-wild deer roam freely through this ancient capital alongside Japan's largest bronze Buddha (Daibutsu) housed in the massive Todai-ji temple. Feed the bowing deer with shika senbei crackers — they'll literally bow for a treat!</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOD -->
+  <section class="section" id="food">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">02 — Food &amp; Cuisine</span>
+        <h2 class="section-title">Must-Try <span class="accent">Japanese Food</span></h2>
+        <p class="section-desc">Japanese cuisine — or washoku — is a UNESCO-recognised culinary art. Precision, seasonal ingredients, and respect for every bite define this extraordinary food culture</p>
+      </div>
+      <div class="food-grid">
+
+        <div class="food-card fade-in">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&q=80" alt="Sushi Japan" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Sushi &amp; Sashimi</h3>
+            <p class="food-desc">Vinegared rice topped with the freshest fish and seafood. For the purest experience, sit at the counter of a traditional Edomae sushi-ya and let the itamae chef guide your meal.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-1">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=600&q=80" alt="Ramen Japan" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Ramen</h3>
+            <p class="food-desc">Each region has its style: milky tonkotsu in Fukuoka, rich miso in Sapporo, soy-based shoyu in Tokyo. A steaming bowl of perfectly crafted ramen on a cold day is one of life's great joys.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-2">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80" alt="Tempura Japan" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Tempura</h3>
+            <p class="food-desc">Gossamer-light battered and flash-fried seafood and vegetables. The secret is ice-cold batter and incredibly hot oil. Dip in tsuyu broth with grated daikon and enjoy the delicate crunch.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-3">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1514190051997-0f6f39ca5cde?auto=format&fit=crop&w=600&q=80" alt="Takoyaki Japan" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Takoyaki</h3>
+            <p class="food-desc">Osaka's beloved street snack — crispy-outside, molten-inside balls of batter with octopus chunks, drizzled with mayonnaise, okonomiyaki sauce, and dancing bonito flakes. Impossibly hot. Irresistibly good.</p>
+          </div>
+        </div>
+
+        <div class="food-card fade-in delay-4">
+          <div class="food-img-wrap">
+            <img class="food-img" src="https://images.unsplash.com/photo-1536304993881-ff86e0c9d35a?auto=format&fit=crop&w=600&q=80" alt="Matcha dessert Japan" loading="lazy">
+          </div>
+          <div class="food-info">
+            <h3 class="food-name">Matcha Desserts</h3>
+            <p class="food-desc">Japan's centuries-old tea ceremony culture expressed as soft-serve ice cream, tiramisu, mochi, Kit Kat, and dorayaki. Kyoto's Nishiki Market is the perfect place to work through every matcha variation imaginable.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAVEL TIPS -->
+  <section class="section section-alt" id="tips">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-number">03 — Travel Tips</span>
+        <h2 class="section-title">Before You Go to <span class="accent">Japan</span></h2>
+        <p class="section-desc">Japan rewards well-prepared travellers. These tips will help you navigate the country with confidence and cultural grace</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card fade-in">
+          <div class="tip-icon"><i class="fa-solid fa-tree"></i></div>
+          <h3 class="tip-title">Best Time to Visit</h3>
+          <p class="tip-text">Spring (March–May) for sakura cherry blossoms is magical but crowded. Autumn (October–November) offers vivid koyo fall foliage. Avoid Golden Week (late April–early May) if possible — it's extremely busy.</p>
+        </div>
+        <div class="tip-card fade-in delay-1">
+          <div class="tip-icon"><i class="fa-solid fa-train"></i></div>
+          <h3 class="tip-title">JR Pass</h3>
+          <p class="tip-text">Buy a Japan Rail Pass before you arrive — it grants unlimited Shinkansen bullet train travel and is far cheaper than individual tickets. A 14-day pass suits most itineraries covering Tokyo, Kyoto, Osaka, and Hiroshima.</p>
+        </div>
+        <div class="tip-card fade-in delay-2">
+          <div class="tip-icon"><i class="fa-solid fa-credit-card"></i></div>
+          <h3 class="tip-title">IC Card (Suica/Pasmo)</h3>
+          <p class="tip-text">Get a Suica or Pasmo IC card at any major station. Use it for metro, buses, convenience stores, and vending machines nationwide. Japan remains largely cash-based — always keep ¥10,000+ handy.</p>
+        </div>
+        <div class="tip-card fade-in delay-3">
+          <div class="tip-icon"><i class="fa-solid fa-hands"></i></div>
+          <h3 class="tip-title">Etiquette Essentials</h3>
+          <p class="tip-text">Remove shoes before entering homes and some restaurants. Never tip — it can be seen as rude. Be quiet on public transport. Bow slightly when greeting. Eat, but don't walk while eating. Rubbish bins are scarce — carry a small bag.</p>
+        </div>
+        <div class="tip-card fade-in delay-4">
+          <div class="tip-icon"><i class="fa-solid fa-wifi"></i></div>
+          <h3 class="tip-title">Pocket WiFi &amp; SIM</h3>
+          <p class="tip-text">Rent a pocket WiFi router at the airport or buy a prepaid data SIM. Japan has excellent 5G coverage. Google Maps works perfectly and is the most reliable navigation tool inside Japan.</p>
+        </div>
+        <div class="tip-card fade-in">
+          <div class="tip-icon"><i class="fa-solid fa-shoe-prints"></i></div>
+          <h3 class="tip-title">Wear Comfortable Shoes</h3>
+          <p class="tip-text">You will walk 20,000+ steps per day. Wear shoes you can slip on and off easily for frequent temple visits. Many traditional restaurants and ryokan inns require removing shoes at the entrance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CULTURAL INSIGHT -->
+  <section class="section" id="culture">
+    <div class="container">
+      <div class="cultural-banner fade-in">
+        <div class="cultural-banner-script" aria-hidden="true" style="color:var(--japan-sakura);">和 友誼 平和 美</div>
+        <h2>The Spirit of Japan</h2>
+        <p>Japan's culture is shaped by <em>wa</em> (harmony), <em>omotenashi</em> (selfless hospitality), and <em>monono aware</em> (the bittersweet beauty of impermanence). These values permeate every experience — from a perfectly prepared bowl of tea to the quiet reverence of a mountain shrine at dawn.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin:1.5rem 0;">
+          <div style="background:rgba(255,183,197,0.08); border:1px solid rgba(255,183,197,0.25); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">和</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Harmony</div>
+          </div>
+          <div style="background:rgba(255,183,197,0.08); border:1px solid rgba(255,183,197,0.25); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">道</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">The Way</div>
+          </div>
+          <div style="background:rgba(255,183,197,0.08); border:1px solid rgba(255,183,197,0.25); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">友誼</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Friendship</div>
+          </div>
+          <div style="background:rgba(255,183,197,0.08); border:1px solid rgba(255,183,197,0.25); border-radius:8px; padding:1rem 1.5rem; text-align:center; min-width:120px;">
+            <div style="font-size:1.8rem; margin-bottom:0.3rem;">平和</div>
+            <div style="font-size:0.7rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px;">Peace</div>
+          </div>
+        </div>
+        <a href="main.html" class="explore-more-btn">
+          <i class="fa-solid fa-globe"></i> Explore Other Countries
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-logos">
+      <img src="assets/uitm-logo.png" alt="UiTM" onerror="this.style.display='none'">
+      <img src="assets/eacc-logo.png" alt="EACC" onerror="this.style.display='none'">
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html">Welcome</a>
+      <a href="main.html">All Countries</a>
+      <a href="china.html">← China</a>
+      <a href="korea.html">Korea →</a>
+    </nav>
+    <div class="footer-divider"></div>
+    <p class="footer-credit">
+      <span>One Culture One Practice 2026</span><br>
+      East Asian Culture Club &nbsp;·&nbsp; UiTM Cawangan Terengganu, Kampus Kuala Terengganu
+    </p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+</body>
+</html>
